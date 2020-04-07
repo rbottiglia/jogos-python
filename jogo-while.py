@@ -1,6 +1,6 @@
 print("Bem vindo ao Jogo da Adivinhação!")
 
-numero_secreto = 42
+numero_secreto = round(random.random() * 100)
 total_de_tentativas = 3
 rodada = 1
 
